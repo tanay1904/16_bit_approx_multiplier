@@ -1,3 +1,5 @@
+// moves all partial products into a wallace tree like array
+
 module par_mul #(parameter N = 4) (
 input rst, clk, load,
 input reg [N-1:0] B, A,
